@@ -4,20 +4,20 @@
 > 
 > This PHP script is **very insecure**, please delete it immediately after use!`
 
-## Local
+## Zip from local
 
-Download `php-publish-shared-hosting` to a directory that can be browsed on your website. And open http://example.com/php-publish-shared-hosting/local.php to zip the website files. You can then upload the zip file to a production server using FileZilla.
+Download `php-publish-shared-hosting` to a directory that can be browsed on your website. And open http://example.com/php-publish-shared-hosting/zip.php to zip the website files. You can then upload the zip file to a production server using FileZilla.
 
-## Production
+## Unzip from production
 
-Create the root directory, and uploading `php-publish-shared-hosting` and zip file, open http://example.com/php-publish-shared-hosting/production.php to extract the website files, delete `php-publish-shared-hosting`.
+Create the root directory, and uploading `php-publish-shared-hosting` and zip file, open http://example.com/php-publish-shared-hosting/unzip.php to extract the website files, delete `php-publish-shared-hosting`.
 
 ## Laravel
 
 If the browseable directory on your site is not in the root directory, Example: the Laravel is set in the `public` folder. Please use the following URL:
 
-* Local: http://example.com/php-publish-shared-hosting/local.php?rootRelativePath=../../
-* Production: http://example.com/php-publish-shared-hosting/production.php?rootRelativePath=../../
+* Zip from local: http://example.com/php-publish-shared-hosting/zip.php?rootRelativePath=../../
+* Unzip from production: http://example.com/php-publish-shared-hosting/unzip.php?rootRelativePath=../../
 
 ## API
 
