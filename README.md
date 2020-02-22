@@ -1,8 +1,6 @@
 # Publish the PHP Website to Shared Hosting
 
-> # Warning!
-> 
-> This PHP script is **very insecure**, please delete it immediately after use!`
+> ![Warning! This PHP script is very insecure, please delete it immediately after use!](warning.svg)
 
 ## Zip from local
 
