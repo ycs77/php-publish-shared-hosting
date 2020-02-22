@@ -1,5 +1,9 @@
 # Publish the PHP Website to Shared Hosting
 
+> # Warning!
+> 
+> This PHP script is **very insecure**, please delete it immediately after use!`
+
 ## Local
 
 Download `php-publish-shared-hosting` to a directory that can be browsed on your website. And open http://example.com/php-publish-shared-hosting/local.php to zip the website files. You can then upload the zip file to a production server using FileZilla.
